@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+  background: #d4d4d4 url("../images/lightpaperfibers.png");
+  font-family: 'STKaiti', 'Arapey', constantia, helvetica;
+  color: #000;
+  -webkit-font-smoothing:antialiased;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Parisienne', 'Gabriola', cursive;
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 5em;
+  margin-left: 36px;
+}
+
+h3 {
+  font-size: 2em;
+  /*font-weight: bold;*/
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
+ul li {
+  font-size: 1.25em;
+  list-style: none;
+}
+
+#protea {
+  margin-left: 5px;
+  width: 500px
+}
+
+form  {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 2em;
+}
+
+.invitation {
+  font-weight: bold;
+}
+input#ss-submit {
+  border: 1px solid #bcbcbc;
+  background: #fefefe;
+  opacity:0.6;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: -5px;
+  width: 190px;
+}
+
+input.ss-q-short {
+  border: none;
+  border-bottom: 1px solid #bcbcbc;
+  border-top: 1px solid #bcbcbc;
+  padding: 8px 0px 8px 0px;
+  width: 100%;
+  color: #555;
+  /*background: transparent ;*/
+  background: #fefefe;
+  opacity:0.6;
+}
+
+textarea {
+  border: none;
+  border-top: 1px solid #bcbcbc;
+  border-bottom: 1px solid #bcbcbc;
+  padding: 8px 0px 8px 0px;
+  width: 100%;
+  color: #555;
+  /*background: transparent;*/
+  background: #fefefe;
+  opacity:0.6;
+}
+
+.additional_information {
+  font-weight: bold;
+  /*font-family: Garamond, arial;*/
+  font-size: 10px;
+}
